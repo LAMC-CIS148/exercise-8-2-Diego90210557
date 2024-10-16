@@ -10,6 +10,8 @@ html {
 }
 @media screen and (viewport-width:175%);{
 }
+@media screen and (viewport-width: 250%);{
+}
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
@@ -23,6 +25,7 @@ a:focus, a:hover {
 }
 /* the styles for the header */
 header {
+	text-allign:center;
 	padding: 1.5em 0 2em 0;
 	border-bottom: 3px solid #931420;
 		background-image: -moz-linear-gradient(
@@ -43,7 +46,7 @@ header h3 {
 	font-style: italic;
 }
 header img {
-	float: left;
+	float: none;
 	padding: 0 30px;
 }
 .shadow {
