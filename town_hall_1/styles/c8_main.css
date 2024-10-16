@@ -7,6 +7,7 @@ html {
 	background-color: white;
 }
 @media screen and (max-width: 980px);
+}
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
@@ -135,6 +136,8 @@ article img {
 	float: right;
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
+	max-width:40%;
+	min-width:150px;
 }
 
 /* the styles for the aside */
