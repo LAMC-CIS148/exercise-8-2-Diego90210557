@@ -11,6 +11,13 @@ html {
 @media screen and (viewport-width:175%);{
 }
 @media screen and (viewport-width: 250%);{
+#nav_menu-display:none;
+display:#mobile_menu;
+#slicknav_menu-background:#800000
+background-decleration:!important;
+}
+#mobile_menu{
+	display:none;
 }
 body {
 	font-family: Arial, Helvetica, sans-serif;
